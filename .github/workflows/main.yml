@@ -15,9 +15,9 @@ jobs:
     - name: Build Kernel
       uses: Leod3/kernel_build_action@main
       with:
-          kernel-url: https://github.com/Leod3/990_upstream.git
-          kernel-dir: lineage-22
-          kernel-branch: lineage-22
+          kernel-url: https://github.com/Leod3/android_kernel_samsung_exynos990r8s.git
+          kernel-dir: main
+          kernel-branch: main
           config: exynos9830-r8slte_defconfig
           arch: arm64
           aosp-gcc: true
