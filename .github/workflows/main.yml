@@ -18,11 +18,10 @@ jobs:
           kernel-url: https://github.com/Leod3/android_kernel_samsung_exynos990r8s.git
           kernel-dir: main
           kernel-branch: main
-          config: exynos9830-r8slte_defconfig
+          config: extreme_r8s_defconfig
           arch: arm64
           aosp-gcc: true
-          aosp-clang: true
+          clang: true
           ksu: true
           android-version: 12
-          aosp-clang-version: r416183b1
           anykernel3: true
