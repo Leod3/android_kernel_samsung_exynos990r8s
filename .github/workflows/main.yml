@@ -21,7 +21,7 @@ jobs:
           config: extreme_r8s_defconfig
           arch: arm64
           aosp-gcc: true
-          clang: true
+          aosp-clang: true
           ksu: true
           android-version: 12
           anykernel3: true
