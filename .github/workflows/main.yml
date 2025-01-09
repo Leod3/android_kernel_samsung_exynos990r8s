@@ -20,8 +20,3 @@ jobs:
           kernel-branch: main
           config: extreme_r8s_defconfig
           arch: arm64
-          aosp-clang: true
-          ksu: true
-          android-version: 13
-          anykernel3: true
-          aosp-clang-version: r530567
